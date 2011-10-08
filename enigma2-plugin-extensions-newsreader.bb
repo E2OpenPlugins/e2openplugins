@@ -1,4 +1,4 @@
-MODULE = "Newsreader"
+MODULE = "NewsReader"
 DESCRIPTION = "RSS reader"
 
 inherit gitpkgv
