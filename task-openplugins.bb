@@ -25,5 +25,5 @@ DEPENDS = "\
   enigma2-plugin-extensions-wakeonlan \
 #  enigma2-plugin-extensions-snmpagent \
   enigma2-plugin-systemplugins-autoshutdown \
-#  enigma2-plugin-systemplugins-crossepg \
+  enigma2-plugin-systemplugins-crossepg \
 "
