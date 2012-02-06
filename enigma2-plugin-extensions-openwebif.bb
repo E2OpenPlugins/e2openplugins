@@ -1,12 +1,12 @@
 MODULE = "OpenWebif"
 DESCRIPTION = "Control your receiver with a browser"
 DEPENDS = "python-cheetah-native"
-RDEPENDS_${PN} = "python-cheetah python-json python-unixadmin"
+RDEPENDS_${PN} = "python-cheetah python-json python-unixadmin python-misc"
 
 inherit gitpkgv
 PV = "0.1+git${SRCPV}"
 PKGV = "0.1+git${GITPKGV}"
-PR = "r0.7"
+PR = "r0.71"
 
 require openplugins.inc
 
