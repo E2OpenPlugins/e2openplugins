@@ -1,10 +1,10 @@
 MODULE = "Foreca"
-DESCRIPTION = "Weather forecast"
+DESCRIPTION = "Weather forecast for the upcoming 10 days"
 RDEPENDS_${PN} = "python-html"
 
 inherit gitpkgv
-PV = "2.1+git${SRCPV}"
-PKGV = "2.1+git${GITPKGV}"
+PV = "2.7+git${SRCPV}"
+PKGV = "2.7+git${GITPKGV}"
 PR = "r0"
 
 require openplugins-distutils.inc
