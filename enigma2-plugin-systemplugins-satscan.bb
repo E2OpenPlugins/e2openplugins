@@ -1,7 +1,7 @@
 MODULE = "Satscan"
 DESCRIPTION = "Blind scan on DVB-S"
 RDEPENDS_${PN} = virtual/satscanutils
-#PACKAGE_ARCH = "${MACHINE_ARG}"
+PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 SRCREV = ""
 
