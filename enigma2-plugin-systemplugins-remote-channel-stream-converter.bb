@@ -1,4 +1,4 @@
-MODULE = "Remote Channel Stream Converter"
+MODULE = "RemoteChannelStreamConverter"
 DESCRIPTION = "Fetch channels from remote bouquets and make them available locally"
 #RDEPENDS_${PN} = 
 #PACKAGE_ARCH = "${MACHINE_ARCH}"
