@@ -1,14 +1,10 @@
 MODULE = "RemoteChannelStreamConverter"
 DESCRIPTION = "Fetch channels from remote bouquets and make them available locally"
-#RDEPENDS_${PN} = 
-#PACKAGE_ARCH = "${MACHINE_ARCH}"
 
-SRCREV = ""
+RDEPENDS_${PN} = "python-shell"
 
-inherit gitpkgv
+PR="r0"
 
-PV = "1.0+git${SRCPV}"
-PKGV = "${PV}"
-PR = "r3"
+require openplugins-replace-pli.inc
 
 require openplugins-distutils.inc
