@@ -2,7 +2,8 @@ MODULE = "OpenAirPlay"
 DESCRIPTION = "AirPlay and AirTunes server for enigma2"
 RDEPENDS_${PN} = "python-twisted-core python-twisted-web python-m2crypto \
                   python-biplist python-netclient python-avahi python-dbus \
-                  python-core python-subprocess python-io hairtunes"
+                  python-core python-subprocess python-io python-xmlrpc \
+                  hairtunes"
 
 inherit gitpkgv
 PV = "0.1+git${SRCPV}"
