@@ -9,7 +9,7 @@ SRCREV = ""
 inherit gitpkgv
 
 PV = "1.0+git${SRCPV}"
-PKGV = "${PV}"
-PR = "r2"
+PKGV = "1.0+git${GITPKGV}"
+PR = "r3"
 
 require openplugins-distutils.inc
