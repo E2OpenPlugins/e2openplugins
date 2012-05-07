@@ -17,6 +17,7 @@ DEPENDS = " \
 	enigma2-plugin-extensions-oggisport \
 	enigma2-plugin-extensions-openwebif \
 	enigma2-plugin-extensions-oroscopoitalia \
+	enigma2-plugin-extensions-permanentvfdclock \
 	enigma2-plugin-extensions-ppanel \
 	enigma2-plugin-extensions-remotecontrolchannel \
 	enigma2-plugin-extensions-remotestreamconvert \
