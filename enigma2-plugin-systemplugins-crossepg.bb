@@ -1,5 +1,5 @@
 DESCRIPTION = "Handle your EPG on enigma2 from various sources (opentv, mhw, xmltv, custom sources)"
-HOMEPAGE = https://github.com/E2OpenPlugins/e2openplugin-CrossEPG
+HOMEPAGE = "https://github.com/E2OpenPlugins/e2openplugin-CrossEPG"
 DEPENDS += "libxml2 zlib python"
 LICENSE = "LGPLv2"
 MODULE = "CrossEPG"
