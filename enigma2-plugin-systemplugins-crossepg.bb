@@ -12,6 +12,8 @@ PV = "0.6.2+git${SRCPV}"
 PKGV = "0.6.2+git${GITPKGV}"
 PR = "r0"
 
+inherit python-dir
+
 require openplugins.inc
 
 FILES_${PN} = "/usr/*"
