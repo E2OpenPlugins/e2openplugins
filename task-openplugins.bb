@@ -29,3 +29,5 @@ DEPENDS = " \
 	enigma2-plugin-systemplugins-autoshutdown \
 	enigma2-plugin-systemplugins-crossepg \
 "
+
+require assume-gplv2.inc

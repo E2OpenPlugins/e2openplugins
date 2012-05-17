@@ -11,3 +11,5 @@ require openplugins-distutils.inc
 do_install_append() {
 	chmod a+x ${D}/usr/lib/enigma2/python/Plugins/*/*/*.sh
 }
+
+require assume-gplv2.inc

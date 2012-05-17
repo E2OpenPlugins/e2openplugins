@@ -9,3 +9,5 @@ PKGV = "1.0+git${GITPKGV}"
 PR = "r1"
 
 require openplugins-distutils.inc
+
+require assume-gplv2.inc

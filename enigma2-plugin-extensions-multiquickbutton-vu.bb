@@ -16,6 +16,8 @@ require openplugins.inc
 
 inherit autotools
 
+require assume-gplv2.inc
+
 do_install_append() {
 	install -d ${D}/usr/lib/enigma2/python/Plugins/Extensions/MultiQuickButton
 	rm ${D}/usr/lib/enigma2/python/Plugins/Extensions/MultiQuickButton/function.py

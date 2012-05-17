@@ -9,3 +9,5 @@ PR = "r0"
 
 require openplugins-distutils.inc
 SRC_URI = "git://github.com/E2OpenPlugins/e2openplugin-SimpleUmount.git;protocol=git"
+
+require assume-gplv2.inc
