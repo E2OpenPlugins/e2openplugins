@@ -17,6 +17,7 @@ inherit python-dir
 require openplugins.inc
 
 FILES_${PN} = "/usr/*"
+FILES_${PN}-dbg += "/usr/crossepg/scripts/mhw2epgdownloader/.debug"
 
 CFLAGS_append = " -I${STAGING_INCDIR}/libxml2/ -I${STAGING_INCDIR}/${PYTHON_DIR}/"
 
