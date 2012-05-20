@@ -10,7 +10,7 @@ inherit gitpkgv
 
 PV = "1.0+git${SRCPV}"
 PKGV = "1.0+git${GITPKGV}"
-PR = "r3"
+PR = "r4"
 
 require openplugins-distutils.inc
 
