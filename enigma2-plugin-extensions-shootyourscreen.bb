@@ -1,7 +1,7 @@
 MODULE = "ShootYourScreen"
 DESCRIPTION = "create screenshots with remote control of your STB"
 PACKAGE_ARCH = "${MACHINE_ARCH}"
-RDEPENDS = "aio-grab"
+RDEPENDS_${PN} = "aio-grab"
 
 inherit gitpkgv
 SRCREV = ""
