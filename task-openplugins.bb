@@ -28,6 +28,7 @@ DEPENDS = " \
 	enigma2-plugin-extensions-wakeonlan \
 	enigma2-plugin-systemplugins-autoshutdown \
 	enigma2-plugin-systemplugins-crossepg \
+	enigma2-plugin-extensions-setpicon.bb \
 "
 
 require assume-gplv2.inc
