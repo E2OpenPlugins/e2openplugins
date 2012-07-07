@@ -28,9 +28,9 @@ DEPENDS = " \
 	enigma2-plugin-extensions-wakeonlan \
 	enigma2-plugin-systemplugins-autoshutdown \
 	enigma2-plugin-systemplugins-crossepg \
-	enigma2-plugin-extensions-setpicon.bb \
-	enigma2-plugin-extensions-xpower.bb \
-	enigma2-plugin-extensions-meteoviewer.bb \
+	enigma2-plugin-extensions-setpicon \
+	enigma2-plugin-extensions-xpower \
+	enigma2-plugin-extensions-meteoviewer \
 "
 
 require assume-gplv2.inc
