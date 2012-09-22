@@ -3,8 +3,8 @@ DESCRIPTION = "Weather forecast for the upcoming 10 days"
 RDEPENDS_${PN} = "python-html"
 
 inherit gitpkgv
-PV = "2.9.5+git${SRCPV}"
-PKGV = "2.9.5+git${GITPKGV}"
+PV = "3.0.0+git${SRCPV}"
+PKGV = "3.0.0+git${GITPKGV}"
 PR = "r0"
 
 require openplugins-distutils.inc
