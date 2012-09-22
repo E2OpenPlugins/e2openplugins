@@ -8,7 +8,7 @@ SRCREV = ""
 
 inherit gitpkgv
 
-PV = "1.2+git${SRCPV}"
+PV = "1.3+git${SRCPV}"
 PKGV = "${PV}"
 PR = "r0"
 
