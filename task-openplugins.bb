@@ -32,6 +32,7 @@ DEPENDS = " \
 	enigma2-plugin-extensions-xpower \
 	enigma2-plugin-extensions-meteoviewer \
 	enigma2-plugin-extensions-snmpagent \
+	enigma2-plugin-extensions-systemtools \
 "
 
 require assume-gplv2.inc
