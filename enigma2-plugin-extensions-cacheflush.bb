@@ -1,5 +1,5 @@
-MODULE = "ClearMem"
-DESCRIPTION = "periodicaly clearing the memory"
+MODULE = "CacheFlush"
+DESCRIPTION = "periodicaly flushing cache"
 
 require openplugins-replace-pli.inc
 

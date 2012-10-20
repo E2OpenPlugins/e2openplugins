@@ -33,7 +33,7 @@ DEPENDS = " \
 	enigma2-plugin-extensions-meteoviewer \
 	enigma2-plugin-extensions-snmpagent \
 	enigma2-plugin-extensions-systemtools \
-	enigma2-plugin-extensions-clearmem \
+	enigma2-plugin-extensions-cacheflush \
 "
 
 require assume-gplv2.inc
