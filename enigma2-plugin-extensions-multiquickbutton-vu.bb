@@ -8,9 +8,9 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 inherit gitpkgv
 SRCREV = ""
-PV = "2.7.11+git${SRCPV}"
-PKGV = "2.7.11+git${GITPKGV}"
-PR = "r1"
+PV = "2.7.12+git${SRCPV}"
+PKGV = "2.7.12+git${GITPKGV}"
+PR = "r0"
 
 require openplugins.inc
 
