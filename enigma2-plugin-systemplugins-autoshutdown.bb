@@ -4,8 +4,8 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 inherit gitpkgv
 SRCREV = ""
-PV = "0.4+git${SRCPV}"
-PKGV = "0.4+git${GITPKGV}"
+PV = "0.5+git${SRCPV}"
+PKGV = "0.5+git${GITPKGV}"
 PR = "r0"
 
 require openplugins.inc
