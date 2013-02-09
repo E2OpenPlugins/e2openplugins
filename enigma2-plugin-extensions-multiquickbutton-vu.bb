@@ -25,7 +25,7 @@ do_install_append() {
 }
 
 
-pkg_postinst() {
+pkg_postinst_${PN}() {
 #!/bin/sh
 
 if ! test -d /etc/MultiQuickButton
@@ -87,7 +87,7 @@ echo "Please restart VU+ STB to load Menu Multi QuickButton Plugin ..."
 exit 0
 }
 
-pkg_postrm() {
+pkg_postrm_${PN}() {
 #!/bin/sh
 echo "... activating Timeshift Buttons YELLOW/RED"
 sed -ie s!"<\!\-\- <key id=\"KEY_RED\" mapto=\"timeshiftActivateEnd\" flags=\"b\" /> \-\->"!"<key id=\"KEY_RED\" mapto=\"timeshiftActivateEnd\" flags=\"b\" />"!g "/usr/share/enigma2/keymap.xml"
