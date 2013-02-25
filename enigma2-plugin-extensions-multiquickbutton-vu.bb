@@ -10,7 +10,7 @@ inherit gitpkgv
 SRCREV = ""
 PV = "2.7.13+git${SRCPV}"
 PKGV = "2.7.13+git${GITPKGV}"
-PR = "r1"
+PR = "r2"
 
 require openplugins.inc
 
