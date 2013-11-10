@@ -11,7 +11,7 @@ PV = "0.1+git${SRCPV}"
 PKGV = "0.1+git${GITPKGV}"
 PR = "r0.72"
 
-require openplugins.inc
+require openplugins-distutils.inc
 
 # Just a quick hack to "compile" it
 do_compile() {
@@ -20,7 +20,7 @@ do_compile() {
 }
 
 PLUGINPATH = "/usr/lib/enigma2/python/Plugins/Extensions/${MODULE}"
-do_install() {
+do_install_append() {
 	install -d ${D}${PLUGINPATH}
 	cp -rp ${S}/plugin/* ${D}${PLUGINPATH}
 }
