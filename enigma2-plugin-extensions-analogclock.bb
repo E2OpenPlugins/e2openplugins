@@ -1,5 +1,6 @@
 MODULE = "AnalogClock"
-DESCRIPTION = "displays analog clock on the screen"
+
+DESCRIPTION = "permanent analog clock on the screen"
 
 require openplugins-replace-pli.inc
 
