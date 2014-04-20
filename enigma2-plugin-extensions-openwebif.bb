@@ -7,9 +7,8 @@ DEPENDS = "python-cheetah-native"
 RDEPENDS_${PN} = "python-cheetah python-json python-unixadmin python-misc python-pyopenssl python-shell aio-grab"
 
 inherit gitpkgv
-PV = "0.1+git${SRCPV}"
-PKGV = "0.1+git${GITPKGV}"
-PR = "r0.72"
+PV = "1+git${SRCPV}"
+PKGV = "1+git${GITPKGV}"
 
 require openplugins-distutils.inc
 
