@@ -10,6 +10,7 @@ RDEPENDS_${PN} = "\
 	python-compression\
 	python-json \
 	python-misc \
+	python-numbers \
 	python-pyopenssl \
 	python-shell \
 	python-unixadmin \
