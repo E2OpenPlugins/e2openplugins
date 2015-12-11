@@ -3,6 +3,9 @@ PR = "r0"
 
 inherit packagegroup
 
+# disabled because it contains mips32el code that breaks the arm build.
+# enigma2-plugin-systemplugins-crossepg
+
 DEPENDS = " \
 	enigma2-plugin-extensions-addstreamurl \
 	enigma2-plugin-extensions-antilogo \
@@ -27,7 +30,6 @@ DEPENDS = " \
 	enigma2-plugin-extensions-simpleumount \
 	enigma2-plugin-extensions-streaminterface \
 	enigma2-plugin-extensions-wakeonlan \
-	enigma2-plugin-systemplugins-crossepg \
 	enigma2-plugin-extensions-setpicon \
 	enigma2-plugin-extensions-xpower \
 	enigma2-plugin-extensions-meteoviewer \
