@@ -31,7 +31,7 @@ do_compile() {
 PLUGINPATH = "/usr/lib/enigma2/python/Plugins/Extensions/${MODULE}"
 do_install_append() {
 	install -d ${D}${PLUGINPATH}
-	cp -rp ${S}/plugin/* ${D}${PLUGINPATH}
+	cp -r ${S}/plugin/* ${D}${PLUGINPATH}
 }
 
 FILES_${PN} = "${PLUGINPATH}"
