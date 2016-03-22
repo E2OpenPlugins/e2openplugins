@@ -17,9 +17,9 @@ AUTOBOUQUETS_BRANCH ?= "release"
 SRCREV = "${AUTOREV}"
 PV = "1.0+git${SRCPV}"
 PKGV = "1.0+git${GITPKGV}"
-PR = "r1"
+PR = "r2"
 
-INHIBIT_PACKAGE_STRIP = "1"
+INSANE_SKIP_${PN} += "already-stripped"
 
 SRC_URI="git://github.com/LraiZer/AutoBouquets.git;branch=${AUTOBOUQUETS_BRANCH}"
 
@@ -33,21 +33,16 @@ EXTRA_OECONF = ""
 do_install() {
     install -d ${D_FILES_PN}
     install -d ${D_FILES_PN}/locale
-    install -m 644 ${S}/autobouquets.png ${D_FILES_PN}
-    install -m 755 ${S}/autobouquets_e2.sh ${D_FILES_PN}
     install -m 755 ${S}/autobouquetsreader ${D_FILES_PN}
-    install -m 755 ${S}/autopicon_convert.sh ${D_FILES_PN}
-    install -m 644 ${S}/changelog.txt ${D_FILES_PN}
+    install -m 755 ${S}/*.sh ${D_FILES_PN}
+    install -m 644 ${S}/*.py *.txt *.png ${D_FILES_PN}
+    install -m 644 ${S}/locale/*.* ${D_FILES_PN}/locale
     install -m 644 ${S}/COPYING ${D_FILES_PN}
-    install -m 644 ${S}/custom_sort_1.txt ${D_FILES_PN}
-    install -m 644 ${S}/custom_sort_2.txt ${D_FILES_PN}
-    install -m 644 ${S}/custom_sort_3.txt ${D_FILES_PN}
-    install -m 644 ${S}/custom_swap.txt ${D_FILES_PN}
-    install -m 644 ${S}/helpfile.txt ${D_FILES_PN}
-    install -m 644 ${S}/__init__.py ${D_FILES_PN}
     install -m 644 ${S}/LICENSE ${D_FILES_PN}
-    install -m 644 ${S}/oea-logo.png ${D_FILES_PN}
-    install -m 644 ${S}/plugin.py ${D_FILES_PN}
-    install -m 644 ${S}/readme.txt ${D_FILES_PN}
-    install -m 644 ${S}/supplement.txt ${D_FILES_PN}
+
+    install -d ${D_FILES_PN}/locale/en_GB/LC_MESSAGES
+    install -d ${D_FILES_PN}/locale/ru/LC_MESSAGES
+    install -m 644 ${S}/locale/en_GB/LC_MESSAGES/*.* ${D_FILES_PN}/locale/en_GB/LC_MESSAGES
+    install -m 644 ${S}/locale/ru/LC_MESSAGES/*.* ${D_FILES_PN}/locale/ru/LC_MESSAGES
 }
+
