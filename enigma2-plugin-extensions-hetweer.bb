@@ -14,4 +14,9 @@ do_install() {
         chmod a+rX ${D}${PLUGINPATH}
 }
 
+
+pkg_postrm_${PN}() {
+    rm -rf /usr/lib/enigma2/python/Plugins/Extensions/HetWeer
+}
+
 FILES_${PN} = "${PLUGINPATH}"
