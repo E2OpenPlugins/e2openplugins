@@ -1,16 +1,21 @@
 DESCRIPTION = "E2OpenPlugins Task"
 PR = "r0"
 
-inherit task
+inherit packagegroup
+
+# disabled because it contains mips32el code that breaks the arm build.
+# enigma2-plugin-systemplugins-crossepg
 
 DEPENDS = " \
 	enigma2-plugin-extensions-addstreamurl \
 	enigma2-plugin-extensions-antilogo \
 	enigma2-plugin-extensions-autobackup \
+	enigma2-plugin-extensions-autobouquets \
 	enigma2-plugin-extensions-bitrate \
 	enigma2-plugin-extensions-buienradar \
 	enigma2-plugin-extensions-changerootpassword \
 	enigma2-plugin-extensions-foreca \
+	enigma2-plugin-extensions-hetweer \
 	enigma2-plugin-extensions-meteoitalia2 \
 	enigma2-plugin-extensions-newsreader \
 	enigma2-plugin-extensions-nfsserver \
@@ -27,7 +32,6 @@ DEPENDS = " \
 	enigma2-plugin-extensions-streaminterface \
 	enigma2-plugin-extensions-wakeonlan \
 	enigma2-plugin-systemplugins-autoshutdown \
-	enigma2-plugin-systemplugins-crossepg \
 	enigma2-plugin-extensions-setpicon \
 	enigma2-plugin-extensions-xpower \
 	enigma2-plugin-extensions-meteoviewer \
@@ -35,6 +39,8 @@ DEPENDS = " \
 	enigma2-plugin-extensions-systemtools \
 	enigma2-plugin-extensions-cacheflush \
 	enigma2-plugin-extensions-analogclock \
+	enigma2-plugin-extensions-epgimportfilter \
+	enigma2-plugin-systemplugins-autobouquetsmaker \
 "
 
 require assume-gplv2.inc

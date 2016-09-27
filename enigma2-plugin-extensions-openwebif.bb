@@ -4,7 +4,17 @@ LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://README;firstline=10;lastline=12;md5=9c14f792d0aeb54e15490a28c89087f7"
 
 DEPENDS = "python-cheetah-native"
-RDEPENDS_${PN} = "python-cheetah python-json python-unixadmin python-misc python-pyopenssl python-shell aio-grab python-compression"
+RDEPENDS_${PN} = "\
+	aio-grab \
+	python-cheetah \
+	python-compression\
+	python-json \
+	python-misc \
+	python-numbers \
+	python-pyopenssl \
+	python-shell \
+	python-unixadmin \
+	"
 
 inherit gitpkgv
 PV = "1+git${SRCPV}"
@@ -21,7 +31,8 @@ do_compile() {
 PLUGINPATH = "/usr/lib/enigma2/python/Plugins/Extensions/${MODULE}"
 do_install_append() {
 	install -d ${D}${PLUGINPATH}
-	cp -rp ${S}/plugin/* ${D}${PLUGINPATH}
+	cp -r ${S}/plugin/* ${D}${PLUGINPATH}
+	chmod a+rX ${D}${PLUGINPATH}
 }
 
 FILES_${PN} = "${PLUGINPATH}"
