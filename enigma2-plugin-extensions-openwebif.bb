@@ -8,6 +8,7 @@ RDEPENDS_${PN} = "\
 	aio-grab \
 	python-cheetah \
 	python-compression\
+	python-ipaddress\
 	python-json \
 	python-misc \
 	python-numbers \
