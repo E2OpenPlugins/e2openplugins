@@ -1,7 +1,7 @@
 DESCRIPTION = "E2OpenPlugins Task"
 PR = "r0"
 
-inherit task
+inherit packagegroup
 
 DEPENDS = " \
 	enigma2-plugin-extensions-addstreamurl \
