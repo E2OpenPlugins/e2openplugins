@@ -13,3 +13,5 @@ do_install_append() {
 }
 
 require assume-gplv2.inc
+
+SRCREV = "8661b07088198523247f1c7784163a3a72c36ede"

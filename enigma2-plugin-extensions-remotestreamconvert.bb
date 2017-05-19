@@ -10,3 +10,5 @@ require openplugins-replace-pli.inc
 require openplugins-distutils.inc
 
 require assume-gplv2.inc
+
+SRCREV = "baaad0038e26cde4d15e67205fdcb4217ea5a749"

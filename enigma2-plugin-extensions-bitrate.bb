@@ -15,3 +15,5 @@ EXTRA_OECONF = " \
 FILES_${PN} = "${libdir} ${bindir}"
 
 require assume-gplv2.inc
+
+SRCREV = "edca14d4268674361f0c7cffc4bbb95f42151542"

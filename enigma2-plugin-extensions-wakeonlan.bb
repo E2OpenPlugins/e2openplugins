@@ -9,3 +9,5 @@ PKGV = "1.0+git${GITPKGV}"
 PR = "r0"
 
 require assume-gplv2.inc
+
+SRCREV = "ff4efd65559655d4b44991c89dc6506bfb8efb2b"

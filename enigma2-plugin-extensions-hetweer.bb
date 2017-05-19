@@ -20,3 +20,5 @@ pkg_postrm_${PN}() {
 }
 
 FILES_${PN} = "${PLUGINPATH}"
+
+SRCREV = "708146ac61320c0ba31e66ba51abb4f7038f8638"

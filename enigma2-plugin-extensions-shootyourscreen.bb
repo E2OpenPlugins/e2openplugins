@@ -4,7 +4,6 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 RDEPENDS_${PN} = "aio-grab"
 
 inherit gitpkgv
-SRCREV = ""
 PV = "0.2+git${SRCPV}"
 PKGV = "0.2+git${GITPKGV}"
 PR = "r0"
@@ -12,3 +11,5 @@ PR = "r0"
 require openplugins-distutils.inc
 
 require assume-gplv2.inc
+
+SRCREV = "8efb254055648eb3eadd576269bd7ddeca2dd22f"

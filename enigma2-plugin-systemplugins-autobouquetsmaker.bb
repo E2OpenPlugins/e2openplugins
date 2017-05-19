@@ -7,7 +7,6 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=84dcc94da3adb52b53ae4fa38fe49e5d"
 
 inherit autotools-brokensep gitpkgv pythonnative
 
-SRCREV = "${AUTOREV}"
 PV = "2.1+git${SRCPV}"
 PKGV = "2.1+git${GITPKGV}"
 PR = "r2"
@@ -44,3 +43,5 @@ else
 	echo "No cache file found"
 fi
 }
+
+SRCREV = "69f237d1cbf9628d21b40278c122b11eb5397e2e"

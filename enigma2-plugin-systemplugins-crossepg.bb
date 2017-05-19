@@ -29,3 +29,6 @@ do_compile() {
 do_install() {
 	oe_runmake 'D=${D}' install
 }
+
+# not built
+SRCREV = "${AUTOREV}"

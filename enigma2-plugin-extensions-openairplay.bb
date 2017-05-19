@@ -21,3 +21,6 @@ do_install() {
 FILES_${PN} = "${PLUGINPATH}"
 
 require assume-gplv2.inc
+
+# not built
+SRCREV = "${AUTOREV}"
