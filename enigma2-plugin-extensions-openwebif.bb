@@ -38,4 +38,4 @@ do_install_append() {
 
 FILES_${PN} = "${PLUGINPATH}"
 
-SRCREV = "a99dbf2a2b3c53d92b2f64069c0440e043fe95d6"
+SRCREV = "c53ca9ea27f4aeae303ec430624fb8d7dd610f46"
