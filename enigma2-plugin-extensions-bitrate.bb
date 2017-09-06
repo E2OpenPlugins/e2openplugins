@@ -6,7 +6,9 @@ PR="r1"
 
 require openplugins.inc
 
-inherit autotools
+inherit autotools gettext
+
+DEPENDS += "python"
 
 EXTRA_OECONF = " \
     STAGING_INCDIR=${STAGING_INCDIR} \

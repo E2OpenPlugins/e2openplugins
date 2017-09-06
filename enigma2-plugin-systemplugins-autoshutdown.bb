@@ -10,7 +10,7 @@ PR = "r0"
 
 require openplugins.inc
 
-inherit autotools
+inherit autotools gettext
 
 FILES_${PN} = "/"
 
