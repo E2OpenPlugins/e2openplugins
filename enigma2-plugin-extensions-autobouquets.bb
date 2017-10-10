@@ -14,7 +14,7 @@ LIC_FILES_CHKSUM = "\
 inherit gitpkgv
 
 AUTOBOUQUETS_BRANCH ?= "release"
-SRCREV = "87451763d76a6e279fa24f66fea13f94216bb0b3"
+SRCREV = "e5fd762829077896191074721aa6dbba954de26d"
 PV = "1.0+git${SRCPV}"
 PKGV = "1.0+git${GITPKGV}"
 PR = "r2"
