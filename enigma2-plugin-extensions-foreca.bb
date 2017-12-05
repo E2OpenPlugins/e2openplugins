@@ -14,4 +14,4 @@ CONFFILES_${PN} = "/etc/enigma2/Foreca/City.cfg /etc/enigma2/Foreca/Filter.cfg"
 
 require assume-gplv2.inc
 
-SRCREV = "7867e1cfc8bf58bd584a97d7ad217b99cf8550ca"
+SRCREV = "9870ebc5d6821f5d42a12dd92980c5e16d28ea82"
