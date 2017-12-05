@@ -1,7 +1,7 @@
 # Open version should replace old PLi version of the same plugin. This
 # include file arranges that the Open version is newer, and that the
 # old PLi plugin is removed on install.
-OLDPKG = "${@d.getVar('PN').replace('-extensions-','-pli-')}"
+OLDPKG = "${@d.getVar('PN', True).replace('-extensions-','-pli-')}"
 RREPLACES_${PN} = "${OLDPKG}"
 RCONFLICTS_${PN} = "${OLDPKG}"
 
