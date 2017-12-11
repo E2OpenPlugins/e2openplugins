@@ -44,4 +44,4 @@ else
 fi
 }
 
-SRCREV = "18e1efa53dd7241e4bac327031957898642d20a1"
+SRCREV = "${AUTOREV}"
