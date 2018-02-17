@@ -41,6 +41,7 @@ DEPENDS = " \
 	enigma2-plugin-extensions-analogclock \
 	enigma2-plugin-extensions-epgimportfilter \
 	enigma2-plugin-systemplugins-autobouquetsmaker \
+	enigma2-plugin-extensions-telekomsport \
 "
 
 require assume-gplv2.inc
