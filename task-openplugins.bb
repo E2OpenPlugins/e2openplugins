@@ -35,6 +35,7 @@ DEPENDS = " \
 	enigma2-plugin-extensions-systemtools \
 	enigma2-plugin-extensions-cacheflush \
 	enigma2-plugin-extensions-analogclock \
+	enigma2-plugin-extensions-oscamstatus \
 "
 
 require assume-gplv2.inc
