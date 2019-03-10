@@ -36,6 +36,7 @@ DEPENDS = " \
 	enigma2-plugin-extensions-cacheflush \
 	enigma2-plugin-extensions-analogclock \
 	enigma2-plugin-extensions-oscamstatus \
+	enigma2-plugin-extensions-blackoutblind \
 "
 
 require assume-gplv2.inc
