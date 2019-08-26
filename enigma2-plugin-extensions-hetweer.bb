@@ -7,7 +7,7 @@ require openplugins-distutils.inc
 
 require assume-gplv2.inc
 
-PLUGINPATH = "/usr/lib/enigma2/python/Plugins/Extensions/${MODULE}"
+PLUGINPATH = "${libdir}/enigma2/python/Plugins/Extensions/${MODULE}"
 do_install() {
         install -d ${D}${PLUGINPATH}/Images
         cp -r ${S}/plugin/* ${D}${PLUGINPATH}
@@ -16,7 +16,7 @@ do_install() {
 
 
 pkg_postrm_${PN}() {
-    rm -rf /usr/lib/enigma2/python/Plugins/Extensions/HetWeer
+    rm -rf ${libdir}/enigma2/python/Plugins/Extensions/HetWeer
 }
 
 FILES_${PN} = "${PLUGINPATH}"
